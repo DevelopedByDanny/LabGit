@@ -28,3 +28,6 @@ git push -u origin main
 git add fix2.txt
 git commit -m "add all git commands to fix2"
 git push
+git add .gitignore
+git add fix2.txt
+git commit -m "add .gitignore with rules"

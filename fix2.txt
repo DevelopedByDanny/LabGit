@@ -31,3 +31,10 @@ git push
 git add .gitignore
 git add fix2.txt
 git commit -m "add .gitignore with rules"
+git rebase -i HEAD~2
+git checkout -b feature3
+git add fix2.txt
+git commit -m "update fix2 with all commands"
+git checkout main
+git merge feature3
+git push

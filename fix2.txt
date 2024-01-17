@@ -23,3 +23,11 @@ git switch main
 git cherry-pick a88e82
 git add fix2.txt
 git commit -m "update fix2.txt with git commands used"
+git remote add origin https://github.com/DevelopedByDanny/LabGit.git
+git push -u origin main
+git add fix2.txt
+git commit -m "add all git commands to fix2"
+git push
+git add .gitignore
+git add fix2.txt
+git commit -m "add .gitignore with rules"
